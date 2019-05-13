@@ -1,0 +1,240 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*** Headings Section ***/
+h1,
+h2,
+h3 {
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #6c6c6d;
+}
+
+.big-heading {
+    font-size: 4rem;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.section-heading {
+    font-size: 3rem;
+}
+
+.m-heading {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#testimonials .section-heading {
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/*** Containers ***/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*** Sections ***/
+.white-section {
+    background-color: #fff;
+    color: #393e46;
+}
+
+.colored-section {
+    background-color: #fd297b;
+    color: #fff;
+}
+
+/*** Navigation Bar ***/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    padding-left: 1%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #393e46;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #393e46;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #ff5864;
+}
+
+/*** Buttons ***/
+.btn-outline-dark{
+    margin-right: 40px;
+}
+
+.btn-outline-dark:hover{
+    background-color: #ff5864;
+}
+
+.btn-sign {
+    margin: 3% 3% 5% 0;
+    flex: 1 1 auto;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 10px;
+    background-image: linear-gradient(to right,
+            #f6d365 0%,
+            #fda085 51%,
+            #f6d365 100%);
+}
+
+.btn-sign:hover {
+    background-position: right center;
+}
+
+/*** Title Section ***/
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*** Features Section ***/
+#features {
+    position: relative;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.feature-i {
+    color: #e9d840;
+    margin-bottom: 1rem;
+}
+
+.feature-i:hover {
+    color: #f8ec7c;
+}
+
+.feature-p {
+    color: #f8ec7c;
+}
+
+/*** Pricing Section ***/
+#pricing {
+    padding: 100px;
+}
+
+.price-col {
+    padding: 3% 2%;
+}
+
+.card-header {
+    background-color: #fd297b;
+}
+
+/*** Testimonal Section ***/
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*** Icons Section ***/
+
+#icon {
+    padding-bottom: 3%;
+}
+
+.icon-logo {
+    width: 5%;
+    margin: 20px 20px 50px;
+}
+
+.icon-logo-s {
+    width: 3%;
+}
+
+/*** CTA Section ***/
+#cta {
+    padding: 7% 15%;
+}
+
+#cta .btn {
+    margin-top: 5%;
+}
+
+/*** Footer Section ***/
+#footer {
+    background: linear-gradient(60deg, #e9d840 10%, #ff8cf5, #6549dd);
+}
+
+#footer .container-fluid {
+    padding: 1%;
+}
+
+.footer-i {
+    padding: 1.5% .5% 1%;
+    color: #fff;
+}
+
+.footer-i:hover {
+    color: #ff4c68;
+}
+
+.footer-p {
+    color: #fff;
+    margin: 0;
+}
+
+@media (max-width: 1028px) {
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .big-heading {
+        font-size: 3rem;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+    }
+
+    .btn-outline-dark {
+        margin: 5%;
+    }
+}

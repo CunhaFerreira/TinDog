@@ -1,3 +1,1 @@
-# TinDog
-
-App Dog's Love
+TinDog Starting Files
