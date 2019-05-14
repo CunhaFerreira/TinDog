@@ -227,8 +227,7 @@ p {
 }
 
 .footer-button:hover {
-  background-color: var(--white);
-  color: var(--darkgray);
+  background-color: rgb(248, 219, 219);
 }
 
 hr {
@@ -246,6 +245,10 @@ hr {
 
 @media (max-width: 1028px) {
 
+  #title .container-fluid {
+    padding: 2%;
+  }
+
   #title {
     text-align: center;
   }
@@ -254,4 +257,33 @@ hr {
     position: static;
     transform: rotate(0);
   }
+
+  .big-heading {
+    font-size: 2.5rem;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  h3, .testimonial-text, .feature-title {
+    font-size: 1.3rem;
+  }
+  
+  .price-name, .price-text {
+    font-size: 1.5rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  #pricing {
+    padding: 10%;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+  }
+
 }
