@@ -13,7 +13,9 @@ body {
 
 /*** Headings Section ***/
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: bolder;
 }
 
@@ -39,7 +41,7 @@ p {
 
 /*** Containers ***/
 
-.container-fluid{
+.container-fluid {
   padding: 7% 15%;
 }
 
@@ -99,9 +101,9 @@ p {
   color: var(--darkgray);
   border-radius: 10px;
   background-image: linear-gradient(to right,
-          #f6d365 0%,
-          #fda085 51%,
-          #f6d365 100%);
+      #f6d365 0%,
+      #fda085 51%,
+      #f6d365 100%);
 }
 
 .btn-sign:hover {
@@ -179,6 +181,7 @@ p {
   width: 8%;
   margin: 20px 5px 5px;
 }
+
 .press-logo-d {
   width: 9.5%;
   margin: 20px 5px 5px;
@@ -198,6 +201,7 @@ p {
   color: var(--white);
   font-size: 200%;
 }
+
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
@@ -266,11 +270,14 @@ hr {
     font-size: 2rem;
   }
 
-  h3, .testimonial-text, .feature-title {
+  h3,
+  .testimonial-text,
+  .feature-title {
     font-size: 1.3rem;
   }
 
-  .price-name, .price-text {
+  .price-name,
+  .price-text {
     font-size: 1.5rem;
   }
 
